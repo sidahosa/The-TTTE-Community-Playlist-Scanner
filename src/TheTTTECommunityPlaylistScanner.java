@@ -1,46 +1,19 @@
 package CommunityRemakesUtility;
 
 import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
-import javax.swing.JTextField;
 import javax.swing.JLabel;
-
 import java.awt.Color;
-
 import javax.swing.JButton;
 
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-
 import javax.swing.JTextArea;
-
-import com.jgoodies.forms.factories.DefaultComponentFactory;
-
-import javax.swing.SwingConstants;
-
-import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.SystemColor;
-import java.awt.TextArea;
-import java.io.IOException;
-
-import javax.swing.UIManager;
-import javax.swing.event.CaretEvent;
-import javax.swing.event.CaretListener;
-import javax.swing.JToolBar;
 import javax.swing.JTextPane;
-import javax.swing.JScrollBar;
-import java.awt.ScrollPane;
-import java.awt.event.HierarchyBoundsAdapter;
-import java.awt.event.HierarchyEvent;
 import javax.swing.JScrollPane;
-
-/*
- * The Thomas and Friends Community channel's playlist scanner's
- * GUI built for The Thomas and Friends Community WIKIA page.
- */
 
 public class TheTTTECommunityPlaylistScanner {
 
