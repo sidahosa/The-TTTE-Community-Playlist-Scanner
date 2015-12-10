@@ -43,7 +43,7 @@ public class YouTubeUserNameSorter {
 	 * @return Stringbuffer (That will be converted into a string)
 	 * @throws IOException
 	 */	
-	public StringBuffer runScan() throws IOException{
+	private StringBuffer runScan() throws IOException{
 		int clipindex = 0;
 		// Retrieves YouTube playlist URL and puts into a Document node. 
 		Document doc = Jsoup.connect(mainUrl).get(); 
